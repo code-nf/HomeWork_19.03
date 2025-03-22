@@ -35,3 +35,25 @@ git branch name_branch
 git checkout name_branch
 ```
 <img src="photos/gitCheckout.png">
+
+# Добавляем файлы
+```bash
+git add .
+```
+# Создаем коммит
+```bash
+git commit -m 'message commit'
+```
+<img src="photos/gitCommit.png">
+
+# Показываем ветку github
+```bash
+git push --set-upstream origin name_branch
+```
+<img src="photos/gitPushSet.png">
+
+# Принятия/отклонение pull requests
+
+<img src="photos/gitPush.png">
+
+<img src="photos/pull.png">
